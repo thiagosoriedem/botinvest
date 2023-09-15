@@ -4,10 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "==1.1.1"
+flask = "*"
+pytelegrambotapi = "*"
+flask = "*"
+yfinance = "*"
+matplotlib = "*"
+datetime = "*"
 fbprophet = "==0.6"
-matplotlib = "==3.2.2"
-pandas = "==1.0.5"
+streamlit = "*"
 
 [dev-packages]
 

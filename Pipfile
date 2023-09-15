@@ -1,18 +1,15 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==1.1.1"
+fbprophet = "==0.6"
+matplotlib = "==3.2.2"
+pandas = "==1.0.5"
 
 [dev-packages]
 
-[packages]
-pytelegrambotapi = "*"
-flask = "*"
-yfinance = "*"
-matplotlib = "*"
-datetime = "*"
-fbprophet = "==0.6"
-streamlit = "*"
-
 [requires]
-python_version = "3.11.5"
+python_version = "3.10"
